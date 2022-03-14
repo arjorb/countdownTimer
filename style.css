@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url('https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_Carousel_DOB1_V1.jpg?version=161899d0-0f79-64d0-85e0-dfdbe28fd2cb') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.container{
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem 3rem;
+  border-radius: 0.6rem;
+}
+h1{
+    font-size: 4rem;
+}
+.countdown-container{
+    display: flex;
+    margin: 1rem 0;
+}
+.big-text{
+  font-size: 1.5rem;
+  margin: 0 1rem
+}
+.countdown-container > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.countdown-container span{
+  font-size: 0.9rem;
+}
